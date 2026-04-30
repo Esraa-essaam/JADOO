@@ -5,12 +5,20 @@
 }
 
 .Navbar{
-    margin: 10px;
+    margin: 10px 15px;
     padding: 15px;
     font-family: "Mulish", sans-serif;
 
 }
 
-select{
-        border: none;
+
+
+.logbutton{
+    background-color: white;
+}
+
+.signup{
+    border: solid 1.4px;
+    padding: 6px 22px;
+    border-radius: 8px
 }

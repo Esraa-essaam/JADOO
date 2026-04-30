@@ -8,16 +8,16 @@ function Navbar (){
                 <img src={logo} alt="The page Logo" />
             </div>
             <nav className={`${styles.links} d-flex  gap-5`}>
-                <ul className={`${styles.ul} d-flex gap-5 list-unstyled`}>
+                <ul className={`${styles.ul} d-flex gap-5 list-unstyled align-items-center`}>
                     <li>Desitnations</li>
                     <li>Hotels</li>
                     <li>Flights</li>
                     <li>Bookings</li>
-                    <li> <button>Login</button></li>
-                    <li> <button>Sign up</button></li>
+                    <li> <button className={`${styles.logbutton} border-0`}>Login</button></li>
+                    <li> <button className={`${styles.signup} bg-transparent`}>Sign up</button></li>
                     
                 </ul>
-                <select>
+                <select className={`${styles.lang} border-0 `}>
                     <option value="">EN</option>
                     <option value="">AR</option>
                 </select>
